@@ -1,0 +1,159 @@
+<html>
+
+<head>
+    <title>Dark Shadow</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="animations.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyCJmKQqwMSBpLWoCSkObxnP2h0B2itV_Go",
+            authDomain: "simple-calc-214.firebaseapp.com",
+            projectId: "simple-calc-214",
+            storageBucket: "simple-calc-214.appspot.com",
+            messagingSenderId: "475422944683",
+            appId: "1:475422944683:web:0af23e7f34802dd4db76ee",
+            measurementId: "G-80TN456ME8"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+    <div class="index-container">
+        <div class="header">
+            <!-- Navbar -->
+            <div class="index-navbar">
+                <!-- CSS Grid with 3 Columns -->
+                <div class="index-navbar-content">
+                    <!-- Column 1 -->
+                    <div class="index-navbar-logo">
+                        <i class="fa-duotone fa-d"></i>&nbsp;<i class="fa-regular fa-j"></i>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="index-navbar-navs">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="activity.html">Activity</a></li>
+                            <li><a href="blog.html">Blogs</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li>
+                                <a href="contact.html" style="background-color: #b3c5ef; color: #0f1729">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Navbar end -->
+        </div>
+        <!-- header end -->
+
+        <!-- Content Start -->
+
+        <div class="contact-content">
+            <div class="content-title">
+                <h1>CONTACT ME</h1>
+                <div class="bottom-bar"></div>
+                <p>Here Is How You Can Reach Me</p>
+            </div>
+
+            <div class="contact-inputs">
+                <div class="input">
+                    <input type="text" required name="name" id="name" />
+                    <label for="name">Name</label>
+                </div>
+
+                <div class="input">
+                    <input type="text" required name="subject" id="subject" />
+                    <label for="subject">Subject</label>
+                </div>
+
+                <div class="input">
+                    <input type="email" required name="email" id="email" />
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="input">
+                    <input type="tel" required name="phone" id="phone" />
+                    <label for="phone"> Phone No </label>
+                </div>
+            </div>
+
+            <div class="textArea">
+                <textarea name="message" required id="message" cols="30" rows="5"
+                    placeholder="Enter Message.."></textarea>
+            </div>
+
+            <div class="submit">
+                <button>Submit</button>
+            </div>
+        </div>
+
+        <div class="add-map">
+            <div class="address">
+            </div>
+
+        </div>
+
+        <div class="next-project">
+            <h1>Lets start your next Project</h1>
+        </div>
+
+        <!-- Content End -->
+
+        <div class="section-footer">
+            <div class="footer-contact">
+                <h3>Get In Touch</h3>
+                <p>
+                    <i class="fa-solid fa-location-dot"></i><a href="https://goo.gl/maps/nrgZLotSrFwBfRf69">
+                        129, Patel Vas, Bhat, Daskroi, Ahmedabad - 382210.
+                    </a>
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-at"></i><a target="_blank"
+                        href="mailto:hikigaya1714@gmail.com">hkigaya1714@gmail.com
+                    </a>
+                </p>
+                <p>
+                    <i class="fa-solid fa-phone"></i><a target="_blank" href="tel:+917778931155">7778931155 </a>
+                </p>
+                <p>
+                    <i class="fa-brands fa-whatsapp"></i><a target="_blank"
+                        href="https://wa.me/+917778931155">77789311555
+                    </a>
+                </p>
+
+                <p>
+                    <i class="fa-brands fa-instagram"></i><a target="_blank"
+                        href="https://www.instagram.com/patel_dhruv_214/">Dhruv Patel
+                    </a>
+                </p>
+            </div>
+
+            <div class="footer-hr"></div>
+
+            <div class="footer-copy">Copyright &copy; Dhruv Patel, 2022</div>
+        </div>
+        <!-- Footer Ends -->
+    </div>
+
+    <script src="contact.js"></script>
+</body>
+
+</html>

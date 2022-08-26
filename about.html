@@ -1,0 +1,290 @@
+<html>
+
+<head>
+    <title>Dark shadow</title>
+    <link rel="stylesheet" href="about.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyCJmKQqwMSBpLWoCSkObxnP2h0B2itV_Go",
+            authDomain: "simple-calc-214.firebaseapp.com",
+            projectId: "simple-calc-214",
+            storageBucket: "simple-calc-214.appspot.com",
+            messagingSenderId: "475422944683",
+            appId: "1:475422944683:web:0af23e7f34802dd4db76ee",
+            measurementId: "G-80TN456ME8"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+    <div class="index-container">
+        <div class="header">
+            <!-- Navbar -->
+            <div class="index-navbar">
+                <!-- CSS Grid with 3 Columns -->
+                <div class="index-navbar-content">
+                    <!-- Column 1 -->
+                    <div class="index-navbar-logo">
+                        <i class="fa-duotone fa-d"></i>&nbsp;<i class="fa-regular fa-j"></i>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="index-navbar-navs">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li>
+                                <a href="about.html" style="background-color: #638bea; color: #071840">About</a>
+                            </li>
+                            <li><a href="activity.html">Activity</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Navbar end -->
+        </div>
+        <!-- header end -->
+
+        <!-- Content Starts -->
+
+        <div class="section-about-me">
+            <!-- Section About me -->
+            <h1>ABOUT ME</h1>
+            <div class="bottom-bar"></div>
+            <p>Let me tell you about me and my work i have done in past and currently doing.</p>
+            <div class="about-me-div">
+                <img src="https://images.unsplash.com/photo-1545184180-25d471fe75eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGVyc29uJTIwd29ya2luZyUyMG9uJTIwbGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
+                    alt="" />
+                <div class="about-text">
+                    <h4>YOUR WORK WILL BE DONE IN TIME AND WITH PERFECTION</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                        dolor explicabo eaque excepturi amet repudiandae ratione at
+                        similique, harum, in atque obcaecati doloremque dolores culpa,
+                        quis accusamus!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- / Section About me -->
+
+        <div class="section-awards">
+            <div class="single-award">
+                <i class="fa-solid fa-medal fa-3x"></i>
+                <h3>AWARD ONE</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nam
+                    sint voluptatibus.
+                </p>
+            </div>
+
+            <div class="single-award">
+                <i class="fa-solid fa-medal fa-3x"></i>
+                <h3>AWARD TWO</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nam
+                    sint voluptatibus.
+                </p>
+            </div>
+
+            <div class="single-award">
+                <i class="fa-solid fa-medal fa-3x"></i>
+                <h3>AWARD THREE</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nam
+                    sint voluptatibus.
+                </p>
+            </div>
+        </div>
+        <!-- / Section Awards -->
+        <section id="abc">
+            <div class="section-tech-skills">
+                <h1>TECHNICAL SKILLS</h1>
+                <div class="bottom-bar"></div>
+
+                <div class="progress-container">
+
+                    HTML
+                    <div id="progressHTML">
+                        <div id="doneHTML" data-progress="90%"></div>
+                    </div>
+
+
+
+                    CSS
+                    <div id="progressCSS">
+                        <div id="doneCSS" data-progress="78%"></div>
+                    </div>
+
+
+                    BOOTSTRAP
+                    <div id="progressBOOTSTRAP">
+                        <div id="doneBOOTSTRAP" data-progress="50%"></div>
+                    </div>
+
+
+
+                    SASS
+                    <div id="progressSASS">
+                        <div id="doneSASS" data-progress="70%"></div>
+                    </div>
+
+
+
+                    JAVASCRIPT
+                    <div id="progressJAVASCRIPT">
+                        <div id="doneJAVASCRIPT" data-progress="84%"></div>
+                    </div>
+
+
+
+                    React
+                    <div id="progressREACT">
+                        <div id="doneREACT" data-progress="76%"></div>
+                    </div>
+                </div>
+        </section>
+
+
+        <div class="section-testimonials">
+            <h1>TESTIMONIALS</h1>
+            <div class="bottom-bar"></div>
+            <p>How people describe me and about my work.</p>
+
+            <div class="reviews">
+
+
+                <div class="review">
+                    <div class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus unde sit
+                        beatae illum libero in dolorum consequuntur recusandae, perspiciatis inventore.</div>
+                    <div class="review-person">
+                        <img src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBlcnNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="">
+                        <p>Kelly Sikkema, Ireland</p>
+                    </div>
+                </div>
+
+
+                <div class="review">
+                    <div class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus unde sit
+                        beatae illum libero in dolorum consequuntur recusandae, perspiciatis inventore.</div>
+                    <div class="review-person">
+                        <img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
+                            alt="">
+                        <p>Barney Stonnis, British Columnbia</p>
+                    </div>
+                </div>
+
+                <div class="review">
+                    <div class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus unde sit
+                        beatae illum libero in dolorum consequuntur recusandae, perspiciatis inventore.</div>
+                    <div class="review-person">
+                        <img src="https://media.istockphoto.com/photos/handsome-man-with-beard-and-long-hair-wearing-casual-clothes-smiling-picture-id1295050900?b=1&k=20&m=1295050900&s=170667a&w=0&h=m_TNYSePmd9ISrs6Tw2YpIWz0sT0aSDcTVpOExAAa_Q="
+                            alt="">
+                        <p>Ted Mosby, Orlando</p>
+                    </div>
+                </div>
+
+                <div class="review">
+                    <div class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus unde sit
+                        beatae illum libero in dolorum consequuntur recusandae, perspiciatis inventore.</div>
+                    <div class="review-person">
+                        <img src="https://images.unsplash.com/photo-1562750270-45948cdeb8e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGxvbmclMjBoYWlyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                        <p>Anastasia Leonova, Peru</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="section-counters">
+            <div class="counters">
+
+                <div class="counter">
+                    <i class="fa-brands fa-4x fa-twitter"></i>
+                    <h1 data-count="214">214</h1>
+                    <!-- <h1 class="count" data-target="8528528"></h1> -->
+                    <p>Twitter Followers</p>
+                </div>
+
+                <div class="counter">
+                    <i class="fa-brands fa-4x fa-youtube"></i>
+                    <h1 data-count="1714">1714</h1>
+                    <p>Youtube Subscribers</p>
+                </div>
+
+                <div class="counter">
+                    <i class="fa-brands fa-4x fa-facebook"></i>
+                    <h1 data-count="1611">1611</h1>
+                    <!-- <h1 class="count" data-target="8528528"></h1> -->
+                    <p>Facebook Likes</p>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- Content Ends -->
+
+        <!-- Footer Starts -->
+        <div class="section-footer">
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>
+                    <i class="fa-solid fa-location-dot"></i><a href="https://goo.gl/maps/nrgZLotSrFwBfRf69">
+                        Post - Bhat, Taluka - daskroi, Dist - Ahmedabad, Pin - 382210.
+                    </a>
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-at"></i><a target="_blank"
+                        href="mailto:hikigaya1714@gmail.com">hikigaya1714@gmail.com
+                    </a>
+                </p>
+                <p>
+                    <i class="fa-solid fa-phone"></i><a target="_blank" href="tel:+917778931155">7778931155 </a>
+                </p>
+                <p>
+                    <i class="fa-brands fa-whatsapp"></i><a target="_blank"
+                        href="https://wa.me/+917778931155">7778931155
+                    </a>
+                </p>
+
+                <p>
+                    <i class="fa-brands fa-instagram"></i><a target="_blank"
+                        href="https://www.instagram.com/patel_dhruv_214/">Dhruv Patel
+                    </a>
+                </p>
+            </div>
+
+            <div class="footer-hr"></div>
+
+            <div class="footer-copy">Copyright &copy; Dhruv Patel, 2022</div>
+        </div>
+        <!-- Footer Ends -->
+    </div>
+    <script src="practice.js"></script>
+</body>
+
+</html>

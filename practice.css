@@ -1,0 +1,4 @@
+.video{
+    display:grid;
+    grid-template-columns:repeat(4,0.99fr);
+}
